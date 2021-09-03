@@ -1355,7 +1355,7 @@ Rect.prototype.contains = function(x, y) {
 ////////////////////////////////////////////////////////////////
 
 	var channel_id = decodeURIComponent(window.location.hash.substr(1)) || "lobby";
-	var gClient = new Client("wss://20.85.232.79:1234");
+	var gClient = new Client("wss://multiplayerpianoserver.hellogame.repl.co");
 	gClient.setChannel(channel_id);
 	gClient.start();
 
