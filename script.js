@@ -1358,7 +1358,7 @@ Rect.prototype.contains = function(x, y) {
 	var gClient = new Client("wss://multiplayerpianoserver.hellogame.repl.co");
 	gClient.setChannel(channel_id);
 	gClient.start();
-
+//wss and replit sucks, wait HEY WHY ARE YOU HERE???
 
 	// Setting statuss
 	(function() {
