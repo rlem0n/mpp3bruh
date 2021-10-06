@@ -1360,7 +1360,7 @@ Rect.prototype.contains = function(x, y) {
 	gClient.start();
 
 
-	// Setting status
+	// Setting statuss
 	(function() {
 		gClient.on("status", function(status) {
 			$("#status").text(status);
